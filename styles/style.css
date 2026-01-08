@@ -4,11 +4,37 @@
 }
 nav{
     background-color: aliceblue;
+    padding: 36px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 34px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.btn-nav{
+    background-color: #30B868;
+    width: 164px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 body{
     background-color: #fff;
+    box-sizing: border-box;
     max-width: 1200px;
+    margin: 0 auto;
 }
