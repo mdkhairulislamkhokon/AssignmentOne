@@ -64,7 +64,6 @@ body {
     justify-content: center;
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -148,19 +147,20 @@ small {
 }
 
 .box-section {
-    max-width: 1120px;
+    max-width: 1360px;
     margin: 30px auto;
     display: flex;
+    justify-content: space-between;
     gap: 5px;
 }
 
 .box {
-    max-width: 300px;
-    box-shadow: 10px 5px 5px rgb(230, 220, 220);
-    border-radius: 10px;
+    width: 322px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.546);
+    border-radius: 4px;
     text-align: center;
     margin-top: 30px;
-    padding: 25px 30px;
+    padding: 75px 30px;
 }
 
 .box img {
@@ -186,7 +186,7 @@ small {
 .second-brain-section {
     display: flex;
     gap: 25px;
-    max-width: 1120px;
+    max-width: 1360px;
     margin: 0px auto;
     margin-top: 50px;
     align-items: center;
@@ -230,4 +230,22 @@ small {
 .Second-Brain-Section ul li {
     list-style: none;
     margin-top: 5px;
+}
+
+.early-access-section {
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.early-access-section h1 {
+    font-size: 40px;
+    color: #000;
+}
+
+.early-access-section h1,
+.early-access-section button {
+    margin-bottom: 16px;
 }
