@@ -1,27 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-nav{
-    background-color: aliceblue;
-    padding: 36px;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    max-width: 1140px;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 16px 0px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+    align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     display: inline;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     padding: 34px;
     font-weight: 500;
     font-size: 16px;
     color: #000;
 }
-.btn{
+
+.btn {
     background-color: #30B868;
     width: 164px;
     color: #fff;
@@ -30,48 +40,59 @@ nav ul li a{
     padding: 16px 12px;
     border-radius: 5px;
     border: none;
-}
-.btn:hover{
-    background-color: #007BFF;
-    color: #000;
-    cursor: pointer;
-    border-radius: 10px;
+    transition: 0.2s;
 }
 
-body{
+.btn:hover {
+    background-color: #007BFF;
+    cursor: pointer;
+}
+
+body {
     background-color: #fff;
     box-sizing: border-box;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
-.hero-section{
-    /* background-image: url(../images/hero-bg.png); */
-    /* background-repeat: no-repeat; */
+
+.hero-section {
+    max-width: 1600px;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
     border: 1px solid red;
     text-align: center;
 }
-.hero-section .containt-text{
+
+.hero-section .containt-text {
     color: #fff;
     font-size: 45px;
     font-weight: bold;
     text-align: center;
     /* margin-top: 50px; */
 }
-.hero-text{
+
+.hero-text {
     color: #30B868;
     font-size: 45px;
     font-weight: bold;
     text-align: center;
-    
+
 }
-small{
+
+small {
     font-size: 18px;
     color: #fff;
     margin-top: 16px;
     line-height: 24px;
     margin: 0 auto;
 }
-.btn-hero{
+
+.btn-hero {
     background-color: #30B868;
     width: 250px;
     color: #fff;
@@ -82,12 +103,14 @@ small{
     border: none;
     margin-top: 30px;
 }
-.btn-hero:hover{
+
+.btn-hero:hover {
     cursor: pointer;
     background-color: aqua;
     border-radius: 10px;
 }
-.btn-heros{
+
+.btn-heros {
     background-color: #474646;
     width: 250px;
     color: #fff;
@@ -99,32 +122,39 @@ small{
     border: 1px solid #fff;
     margin-top: 30px;
 }
-.btn-heros:hover{
+
+.btn-heros:hover {
     cursor: pointer;
     background-color: rgb(202, 235, 209);
     border-radius: 10px;
     color: #000;
 }
-.main-containt{
+
+.main-containt {
     text-align: center;
     margin-top: 20px;
 }
-.main-containt > h1{
+
+.main-containt>h1 {
     color: #000;
     font-weight: bold;
     font-size: 48px;
 }
-.main-containt p{
+
+.main-containt p {
     font-size: 16px;
     color: #627382;
     line-height: 30px;
 }
-.box-section{
+
+.box-section {
     max-width: 1120px;
+    margin: 30px auto;
     display: flex;
     gap: 5px;
 }
-.box{
+
+.box {
     max-width: 300px;
     box-shadow: 10px 5px 5px rgb(230, 220, 220);
     border-radius: 10px;
@@ -132,56 +162,72 @@ small{
     margin-top: 30px;
     padding: 25px 30px;
 }
-.box img{
+
+.box img {
     background-color: #f95555;
     padding: 15px;
     border-radius: 50%;
 }
-.box .title{
+
+.box .title {
     color: #000;
     font-size: 22px;
     font-weight: 600;
     margin-top: 10px;
 }
-.box .description{
+
+.box .description {
     color: #627382;
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
 }
-.Second-Brain-Section{
+
+.second-brain-section {
     display: flex;
     gap: 25px;
     max-width: 1120px;
+    margin: 0px auto;
     margin-top: 50px;
+    align-items: center;
 }
-.Second-Brain-Section img{
+
+.Second-Brain-Section img {
     width: 100%;
 }
-.Second-Brain-para{
+
+.Second-Brain-para {
     font-size: 16px;
     color: #30B868;
 }
-.Second-Brain-title{
+
+.Second-Brain-title {
     font-size: 48px;
     color: #000;
     font-weight: 700;
     margin-top: 10px;
 }
-.Second-Brain-discription{
+
+.Second-Brain-discription {
     font-size: 16px;
     color: #627382;
     margin-top: 15px;
     line-height: 20px;
 }
-.Second-Brain-Section ul{
+
+.check-list {
     margin-top: 15px;
+    list-style: none;
 }
-.Second-Brain-Section ul li{
+
+.check-list li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.Second-Brain-Section ul li {
     list-style: none;
     margin-top: 5px;
 }
-
-
-
-
