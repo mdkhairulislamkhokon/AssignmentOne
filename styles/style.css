@@ -131,10 +131,10 @@ small {
 
 .main-containt {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-.main-containt>h1 {
+.main-containt h1 {
     color: #000;
     font-weight: bold;
     font-size: 48px;
@@ -248,4 +248,47 @@ small {
 .early-access-section h1,
 .early-access-section button {
     margin-bottom: 16px;
+}
+
+.footer-section {
+    background-color: #001931;
+    max-width: 1600px;
+    margin: 120px auto 0px;
+}
+
+.footer-main {
+    width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px 80px;
+}
+
+.socials-section h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.social-links {
+    display: flex;
+    gap: 5px;
+    margin-right: 107px;
+}
+
+.social-links a {
+    color: #000;
+    text-decoration: none;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.footer-credit {
+    text-align: center;
+    color: #fff;
+    padding: 30px 0px;
+    font-size: 16px;
+    line-height: 24px;
 }
