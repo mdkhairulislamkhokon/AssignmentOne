@@ -188,7 +188,7 @@ small {
     gap: 25px;
     max-width: 1360px;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 120px;
     align-items: center;
 }
 
@@ -227,7 +227,7 @@ small {
     margin-bottom: 10px;
 }
 
-.Second-Brain-Section ul li {
+.second-brain-section ul li {
     list-style: none;
     margin-top: 5px;
 }
@@ -236,6 +236,7 @@ small {
     background-color: #F7F6F2;
     max-width: 1360px;
     margin: 0px auto;
+    margin-top: 120px;
     text-align: center;
     padding: 80px 0px;
 }
