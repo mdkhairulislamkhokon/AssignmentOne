@@ -149,5 +149,39 @@ small{
     text-align: center;
     margin-top: 10px;
 }
+.Second-Brain-Section{
+    display: flex;
+    gap: 25px;
+    max-width: 1120px;
+    margin-top: 50px;
+}
+.Second-Brain-Section img{
+    width: 100%;
+}
+.Second-Brain-para{
+    font-size: 16px;
+    color: #30B868;
+}
+.Second-Brain-title{
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.Second-Brain-discription{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 15px;
+    line-height: 20px;
+}
+.Second-Brain-Section ul{
+    margin-top: 15px;
+}
+.Second-Brain-Section ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+
 
 
